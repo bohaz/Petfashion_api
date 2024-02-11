@@ -81,6 +81,4 @@ test:
 #
 production:
   <<: *default
-  database: mi_api_production
-  username: mi_api
-  password: <%= ENV["MI_API_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
