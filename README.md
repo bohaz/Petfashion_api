@@ -1,13 +1,13 @@
 <a name="readme-top"></a>
 
-  <h3><b>24-Hours Doctor (Back-End)</b></h3>
+  <h3><b>Petfashion API</b></h3>
 
 </div>
 
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 24hours\Doctor_back_end ](#-24hours_doctor_back_end-)
+- [📖 Petfashion_api ](#-Petfashion_api-)
   - [💻 link to front end ](#-link-to-front-end-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
@@ -18,7 +18,7 @@
     - [Install](#install)
     - [Database](#Database)
     - [Usage](#usage)
-    - [Testing](#Testing)
+    <!-- - [Testing](#Testing) -->
   - [👥 Author ](#-author-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
@@ -29,15 +29,13 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 24hours\Doctor_back_end <a name="about-project"></a>
+# 🐩 Petfashion_api <a name="about-project"></a>
 
-**24hours\Doctor_back_end** This project involves the development of a doctor reservation system with a Ruby on Rails backend API. The API provides endpoints for user registration, login, doctor management, and reservations. Users can interact with a user-friendly frontend to register, log in, view doctors, make reservations, and manage their appointments. The goal is to create a seamless and efficient system for users to reserve and manage appointments with doctors.
+**Petfashion_api** 
 
 ## 💻 link to front end <a name="built-with"></a>
 
-[Link to Front End](https://github.com/mohashyne/24hour_doctor-front_end)
-
-[Link to Kanban Board](https://github.com/mohashyne/24hour_doctor-front_end/projects/1)
+[Link to Front End](https://github.com/bohaz/petfashion)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -49,8 +47,6 @@
   <summary>Technologies</summary>
   <ul>
     <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
-    <li><a href="https://reactjs.org/">React</a></li>
-    <li><a href="https://redux.js.org/">Redux</a></li>
     <li><a href="#">Postgresql</a></li>
   </ul>
 </details>
@@ -64,7 +60,7 @@
 ### Key Features <a name="key-features"></a>
 
 - [x] **Ruby on Rails and React Integration**
-- [x] **API Endpoint for Random Greetings**
+- [x] **API Endpoints**
 - [x] **Professional Documentation**
 - [x] **Linting for Code Quality**
 - [x] **Postgres Database**
@@ -90,13 +86,13 @@ Clone this repository to your desired folder:
 
 sh <br>
 cd my-folder <br>
-git clone https://github.com/mohashyne/24hour_doctor-back_end
+git clone https://github.com/bohaz/Petfashion_api.git
 
 ### Install
 
 Install this project with the steps below:
 
-- After cloning, type `cd 24hour_doctor-back_end` to access the project on the terminal.
+- After cloning, type `cd petfashion_api` to access the project on the terminal.
 - Run `bundle install` to install all the required dependancies.
 - For developmente environment:
   - Create Database with `rails db:create RAILS_ENV=development`
@@ -123,7 +119,7 @@ To run the project, execute the following command:
 
 <br><br>
 
-### How to use this API
+<!-- ### How to use this API
 
 - Consult the documentation in this link:
 https://documenter.getpostman.com/view/21240220/2s9YXmXfc3
@@ -132,11 +128,11 @@ https://documenter.getpostman.com/view/21240220/2s9YXmXfc3
 
    * Local: <a href="#">http://localhost:3000</a>
 
-   * Remote (live demo): <a href="#">https://two4hours-doctor-backend.onrender.com/</a>
+   * Remote (live demo): <a href="#">https://two4hours-doctor-backend.onrender.com/</a> -->
 
 
 
-## Testing
+<!-- ## Testing
 - Testing manually:
 You can test the app locally by visiting http://localhost:3000/.
 
@@ -161,28 +157,11 @@ bundle exec rspec
 This command will run all the RSpec tests in the spec directory and its subdirectories. If you want to run a specific test file, you can provide the file path:
 
 ```bash
-bundle exec rspec spec/path/to/your_spec_file.rb
+bundle exec rspec spec/path/to/your_spec_file.rb -->
 ```
 
 
 ## 👥 Author <a name="authors"></a>
-
-👤 **Muhammad Aminu Salihu**
-
-- GitHub: [@mohashyne](https://github.com/mohashyne)
-- Twitter: [@muhammadslyhu](https://twitter.com/muhammadsalyhu)
-- LinkedIn: [muhammad-salihu](https://linkedin.com/in/msalyhu)
-
-👤 **Lawrence Muema Kioko**
-
-- GitHub: [@githubhandle](https://github.com/Kidd254)
-- Twitter: [@twitterhandle](https://twitter.com/lawrenc98789206)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/lawrence-muema-kioko)
-
-👤 **Henok Mekonnen**
-
-- GitHub: [@githubhandle](https://github.com/henask12)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/henokmekonnen1)
 
 👤 **Ricardo Martínez**
 
@@ -194,7 +173,7 @@ bundle exec rspec spec/path/to/your_spec_file.rb
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Personalized Greetings**
+- [ ] **Book apointments**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -202,7 +181,7 @@ bundle exec rspec spec/path/to/your_spec_file.rb
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/mohashyne/24hour_doctor-back_end/issues).
+Feel free to check the [issues page](https://github.com/bohaz/Petfashion_api/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -215,7 +194,6 @@ And think If you enjoy gift me a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- Microverse for providing the opportunity to learn Git and GitHub in a collaborative environment.
 - GitHub Docs for providing a wealth of information on Git and GitHub.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
