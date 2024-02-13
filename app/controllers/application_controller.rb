@@ -1,11 +1,11 @@
 class ApplicationController < ActionController::API
-  before_action :authorize_request, except: [:create, :login] # Asumiendo que tus acciones de registro y login se llaman 'create' y 'login'
+  before_action :authorize_request, except: [:create, :login] 
 
   private
 
   def authorize_request
     header = request.headers['Authorization']
-    return if header.blank? # Salta la autorización si no hay cabecera de autorización
+    return if header.blank? 
 
     token = header.split(' ').last
     begin

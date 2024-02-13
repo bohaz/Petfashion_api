@@ -7,12 +7,12 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'http://localhost:3000', 'http://localhost:3001', 'https://petfashion.vercel.app' # El puerto en el que corre tu aplicación React
+    origins 'http://localhost:3000', 'http://localhost:3001', 'https://petfashion.vercel.app' 
 
     resource '*',
       headers: :any,
       methods: [:get, :post, :put, :patch, :delete, :options, :head],
-      credentials: true # Si también estás manejando cookies/sesiones
+      credentials: true 
   end
 end
 
