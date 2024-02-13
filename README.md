@@ -117,48 +117,6 @@ To run the project, execute the following command:
 - Run `rails s` to start a development server (it will run in port 3000)
 - Now, you are ready to consume the API endpoints
 
-<br><br>
-
-<!-- ### How to use this API
-
-- Consult the documentation in this link:
-https://documenter.getpostman.com/view/21240220/2s9YXmXfc3
-
-- You can use a local or remote Base URL
-
-   * Local: <a href="#">http://localhost:3000</a>
-
-   * Remote (live demo): <a href="#">https://two4hours-doctor-backend.onrender.com/</a> -->
-
-
-
-<!-- ## Testing
-- Testing manually:
-You can test the app locally by visiting http://localhost:3000/.
-
-
-- Running RSpec Tests:
-We use RSpec for testing to ensure the reliability and correctness of our code. Follow these steps to run the tests:
-
-Prerequisites
-Make sure you have the necessary gems installed by running:
-
-```bash
-bundle install
-```
-
-- Running the Tests
-Execute the following command to run all RSpec tests:
-
-```bash
-bundle exec rspec
-```
-
-This command will run all the RSpec tests in the spec directory and its subdirectories. If you want to run a specific test file, you can provide the file path:
-
-```bash
-bundle exec rspec spec/path/to/your_spec_file.rb -->
-```
 
 
 ## 👥 Author <a name="authors"></a>
