@@ -1,13 +1,13 @@
 class ApplicationController < ActionController::API
-  before_action :authorize_request, except: [:create, :login] 
+  before_action :authorize_request, except: %i[create login]
 
   private
 
   def authorize_request
     header = request.headers['Authorization']
-    return if header.blank? 
+    return if header.blank?
 
-    token = header.split(' ').last
+    token = header.split.last
     begin
       @decoded = JwtService.decode(token)
       @current_user = User.find(@decoded[:user_id])
